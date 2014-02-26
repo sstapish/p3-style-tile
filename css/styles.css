@@ -1,6 +1,7 @@
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
+	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 /* Layout for Style Tile*/
