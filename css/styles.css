@@ -1,8 +1,21 @@
 /* Set Your Own Margin & Padding */
+h1 {
+font-family: 'Paprika', cursive;
+}
+
 h2, h3, p {
 	margin: 0;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'Philosopher', sans-serif;
 }
+
+p {
+ font-family: 'Alegreya Sans SC', sans-serif;	
+}
+/*Fonts 
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
 
 /* Layout for Style Tile*/
 section {
@@ -22,6 +35,11 @@ section {
 	width: 50px;
 }
 
+
+.logo {
+	height: 200px;
+	width: 200px;
+}
 
 /* Show Grid */
 .showgrid {
