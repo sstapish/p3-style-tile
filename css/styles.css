@@ -1,20 +1,25 @@
+
+body {
+	background: #000721;
+}
 /* Set Your Own Margin & Padding */
+h1, h2, h3, p, em {
+  color:#e1e3ed;
+}
 h1 {
-font-family: 'Paprika', cursive;
+	font-family: 'Merienda', cursive;
 }
 
 h2, h3, p {
 	margin: 0;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Paprika', cursive;
 }
 
 p {
- font-family: 'Alice', serif	
+ font-family: 'Alice', serif;	
 }
 /*Fonts 
 font-family: 'Alegreya Sans SC', sans-serif;
-font-family: 'Montserrat', sans-serif;
-
 */
 
 /* Layout for Style Tile*/
