@@ -23,9 +23,15 @@ div section {
 */
 
 /* Styling */
-header {
-	background: #262626;
+.content {
+	background: black;
+	margin-top: 15px;
 
+}
+
+header {
+	background: #000;
+	
 }
 
 .logo {
@@ -33,34 +39,33 @@ header {
 }
 
 h1 {
-  color: #133D86;
   padding-left: .3em;
   font-size: 3.1em;
   line-height: 200px;
   
   font-family: 'Merienda', cursive;
-  
-}
-
-h2, h3, h5, p, em {
-  color:#DEE3FF;
+  color: #33CCCC;
 }
 
 h2, h3 {
 	margin: 10px 0;
 	font-family: 'Paprika', cursive;
-	background: #146e1a;
+	color: #612DBF;
 	padding: 5px 10px;
 	width: 60%;
 }
  
-p, h5 {
- margin-bottom: 0;
- font-family: 'Alice', serif;
- background: #14132e;
- padding: 8px;
+h5 {
+ 	color:#33CCCC;
+ 	margin-bottom: 0;
+	 font-family: 'Alice', serif;
+	padding: 8px;
 }
 
+p{
+	color:#DEE3FF;
+	font-family: 'Alice', serif;	
+}
 
 /*Fonts 
 font-family: 'Alegreya Sans SC', sans-serif;
