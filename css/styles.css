@@ -1,25 +1,29 @@
 
 body {
-	margin: 2%;
 	background: #28282B;
 }
-/* Set Your Own Margin & Padding */
-h2, h3, p, em {
-  color:#DEE3FF;
+
+.heading {
+
 }
+.heading :nth-child(3n+1) {
+	float: right;
+}
+
 h1 {
-  background: #14132e;
   color: #33CCCC;
 
+  background: #14132e;
   padding-left: .3em;
-  margin-right: 70%;
+  margin-right: 55%;
   text-align: center;
   float: right;
   font-family: 'Merienda', cursive;
-  width: 1.75em;
-  height: 160px;
+  
 }
-
+h2, h3, h5, p, em {
+  color:#DEE3FF;
+}
 h2, h3 {
 	margin: 10px 0;
 	font-family: 'Paprika', cursive;
@@ -27,23 +31,23 @@ h2, h3 {
 	padding: 5px 10px;
 	width: 35%;
 }
-
-p, em {
+ 
+p, h5 {
 	
  font-family: 'Alice', serif;
- background: #14132e;
- padding: 8px;	
+ margin: 10px;
+background: #14132e;
+ padding: 8px;
 }
 
-em {
-	margin: 5px;
-}
+
 /*Fonts 
 font-family: 'Alegreya Sans SC', sans-serif;
 */
 
 /* Layout for Style Tile*/
 section {
+	width: 96%;
 	margin: 20px 0;
 }
 
@@ -52,7 +56,9 @@ section {
 .color-3,
 .pattern-1,
 .pattern-2,
-.pattern-3 {
+.pattern-3,
+.button-1,
+.button-2 {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
