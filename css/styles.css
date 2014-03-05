@@ -1,7 +1,9 @@
 
 body {
-	background: #28282B;
+	background: url("../img/dark_wall.png");
+	/*background: #28282B; */
 }
+
 /* Layout for Style Tile*/
 /*.container {
 	width: 90%;
@@ -17,22 +19,25 @@ body {
 div section {
 	width: 33.33%;
 	float: left;
-
 }
 */
 
 /* Styling */
 header {
-	background: white;
+	background: url("../img/white-bg.png");
+
+}
+
+.logo {
+	margin-left: 5%;
 }
 
 h1 {
-  color: #33CCCC;
-
-  background: #14132e;
+  color: #14132e;
   padding-left: .3em;
-  margin-right: 55%;
-  text-align: center;
+  font-size: 3.1em;
+  line-height: 200px;
+  
   font-family: 'Merienda', cursive;
   
 }
@@ -46,11 +51,11 @@ h2, h3 {
 	font-family: 'Paprika', cursive;
 	background: #146e1a;
 	padding: 5px 10px;
-	width: 50%;
+	width: 60%;
 }
  
 p, h5 {
- 
+ margin-bottom: 0;
  font-family: 'Alice', serif;
  background: #14132e;
  padding: 8px;
@@ -71,7 +76,7 @@ font-family: 'Alegreya Sans SC', sans-serif;
 .button-2 {
 	border: 1px solid #000;
 	float: left;
-	margin: 0 10px;
+	margin: 3px;
 	height: 50px;
 	width: 50px;
 }
