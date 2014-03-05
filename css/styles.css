@@ -24,7 +24,7 @@ div section {
 
 /* Styling */
 header {
-	background: url("../img/white-bg.png");
+	background: #262626;
 
 }
 
@@ -33,7 +33,7 @@ header {
 }
 
 h1 {
-  color: #14132e;
+  color: #133D86;
   padding-left: .3em;
   font-size: 3.1em;
   line-height: 200px;
