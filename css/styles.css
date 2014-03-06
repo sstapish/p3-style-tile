@@ -15,9 +15,9 @@ header {
 
 .logo {
 	float: left;
-	margin: 10px 0 10px 30px;
-	height: 250px;
-	width: 250px;
+	margin: 0 0 0 30px;
+	height: 260px;
+	width: 260px;
 }
 
 h1 {
@@ -46,19 +46,35 @@ h5 {
 	font-size: 1em;
 }
 
-p{
+p, h6 {
 	color: #1E1C45;
 	font-family: 'Alice', serif;	
 }
+/*
+article section:last-of-type {
+	background: #1E1C45;
+	padding: 10px;
+}
+article section:last-of-type h5{
+	color: #6B90CA;
+}
+*/
+h6 {
+	text-align: center;
+}
+
 
 /*Fonts 
 font-family: 'Alegreya Sans SC', sans-serif;
 */
 
+/*Pallettes*/
+
 .color-1,
 .color-2,
-.color-3 {
-	border: 1px solid #000;
+.color-3,
+.color-4 {
+	border: 3px solid #DEF0FF;
 	float: left;
 	margin: 3px;
 	height: 50px;
@@ -73,27 +89,33 @@ font-family: 'Alegreya Sans SC', sans-serif;
 .color-3 {
 	background: #2E1F47;
 }
-
+.color-4 {
+	background: #334561;
+}
 .button-1,
 .button-2 {
 	height: 25px;
 	width: 95px;
-	margin: 5px;
-	border: 1px solid #1E1C45;
+	margin: 9px;
 	background: #6B90CA;
 	text-align: center;
-	line-height: 25px;
+	font: bold 14px 'Merienda', cursive;
+	box-shadow: -3px 3px 3px #1E1C45, 
+	inset 1px 1px 1px #7FABF0;
+	border-bottom-color: #334561;
 }
 
 .button-1 {
 	border-radius: 20px 5px;
+	
 }
 .button-2 {
 	border-radius: 20px;
 }
+
 .pattern-1,
 .pattern-2 {
-	border: 1px solid #000;
+	border: 3px solid #DEF0FF;
 	float: left;
 	margin: 5px;
 	height: 100px;
@@ -106,6 +128,27 @@ font-family: 'Alegreya Sans SC', sans-serif;
 .pattern-2 {
 	background: url("../img/white-bg.png");
 }
-a {
+
+/*Link styling */
+div a {
 	text-decoration: none;
+	color: #1E1C45;
+	line-height: 25px;
+}
+div a:hover {
+	color: #DEF0FF;
+
+	transition: color .5s;
+}
+
+p a {
+	color: #334561;
+}
+
+p a:hover,
+a:active {
+	font-weight: bold;
+}
+p a:visited {
+	color: #1E1C45;
 }
