@@ -50,15 +50,18 @@ p, h6 {
 	color: #1E1C45;
 	font-family: 'Alice', serif;	
 }
-/*
+
 article section:last-of-type {
 	background: #1E1C45;
 	padding: 10px;
+	width: 50%;
+    margin: 0 auto;
 }
 article section:last-of-type h5{
 	color: #6B90CA;
-}
-*/
+
+} 
+
 h6 {
 	text-align: center;
 }
