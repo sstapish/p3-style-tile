@@ -1,6 +1,6 @@
 
 body {
-	background: url("../img/dark_wall.png");
+	background: url("../img/mocha.png");
 	/*background: #28282B; */
 }
 
@@ -23,14 +23,9 @@ div section {
 */
 
 /* Styling */
-.content {
-	background: black;
-	margin-top: 15px;
-
-}
 
 header {
-	background: #000;
+	
 	
 }
 
@@ -44,26 +39,26 @@ h1 {
   line-height: 200px;
   
   font-family: 'Merienda', cursive;
-  color: #33CCCC;
+  color: #6B90CA;
 }
 
 h2, h3 {
 	margin: 10px 0;
 	font-family: 'Paprika', cursive;
-	color: #612DBF;
+	color: #2E1F47;
 	padding: 5px 10px;
 	width: 60%;
 }
  
 h5 {
- 	color:#33CCCC;
+ 	color:#DEF0FF;
  	margin-bottom: 0;
 	 font-family: 'Alice', serif;
 	padding: 8px;
 }
 
 p{
-	color:#DEE3FF;
+	color:#DEF0FF;
 	font-family: 'Alice', serif;	
 }
 
@@ -86,10 +81,13 @@ font-family: 'Alegreya Sans SC', sans-serif;
 	width: 50px;
 }
 .color-1 {
-	background: #146e1a;
+	background: #6B90CA;
 }
 .color-2 {
-	background: #14132e;
+	background: #1E1C45;
+}
+.color-3 {
+	background: #2E1F47;
 }
 
 .logo {
