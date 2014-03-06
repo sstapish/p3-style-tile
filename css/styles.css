@@ -4,61 +4,50 @@ body {
 	/*background: #28282B; */
 }
 
-/* Layout for Style Tile*/
-/*.container {
-	width: 90%;
-	margin: 0 auto;
-}
-
-.heading {
-	width: 50%;
-	float: left;
-	display: inline-block;
-}
-
-div section {
-	width: 33.33%;
-	float: left;
-}
-*/
 
 /* Styling */
 
 header {
-	
-	
+	border: 20px solid #2E1F47;
+	border-radius: 5px;
+	background: url("../img/white-bg.png");
 }
 
 .logo {
-	margin-left: 5%;
+	float: left;
+	margin: 10px 0 10px 30px;
+	height: 250px;
+	width: 250px;
 }
 
 h1 {
-  padding-left: .3em;
-  font-size: 3.1em;
-  line-height: 200px;
+  font-size: 2.5em;
+  line-height: 180px;
   
   font-family: 'Merienda', cursive;
-  color: #6B90CA;
+  color: #1E1C45;
 }
 
 h2, h3 {
-	margin: 10px 0;
+	margin: 5px 5px 0 0;
 	font-family: 'Paprika', cursive;
 	color: #2E1F47;
-	padding: 5px 10px;
-	width: 60%;
+}
+
+h3 {
+	padding-bottom: 5px;
 }
  
 h5 {
  	color:#2E1F47;
- 	margin-bottom: 0;
-	 font-family: 'Alice', serif;
+ 	margin: 0;
+	font-family: 'Alice', serif;
 	padding: 8px;
+	font-size: 1em;
 }
 
 p{
-	color:#2E1F47;
+	color: #1E1C45;
 	font-family: 'Alice', serif;	
 }
 
@@ -68,12 +57,7 @@ font-family: 'Alegreya Sans SC', sans-serif;
 
 .color-1,
 .color-2,
-.color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3,
-.button-1,
-.button-2 {
+.color-3 {
 	border: 1px solid #000;
 	float: left;
 	margin: 3px;
@@ -90,12 +74,38 @@ font-family: 'Alegreya Sans SC', sans-serif;
 	background: #2E1F47;
 }
 
-.logo {
-	height: 200px;
-	width: 200px;
+.button-1,
+.button-2 {
+	height: 25px;
+	width: 95px;
+	margin: 5px;
+	border: 1px solid #1E1C45;
+	background: #6B90CA;
+	text-align: center;
+	line-height: 25px;
 }
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+.button-1 {
+	border-radius: 20px 5px;
+}
+.button-2 {
+	border-radius: 20px;
+}
+.pattern-1,
+.pattern-2 {
+	border: 1px solid #000;
+	float: left;
+	margin: 5px;
+	height: 100px;
+	width: 150px;
+}
+
+.pattern-1 {
+	background: url("../img/mocha.png");
+}
+.pattern-2 {
+	background: url("../img/white-bg.png");
+}
+a {
+	text-decoration: none;
 }
